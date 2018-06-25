@@ -1,0 +1,38 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "Microservice written in Node.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "./node_modules/.bin/eslint --fix --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumuluz/kumuluzee-nodejs-samples.git"
+  },
+  "keywords": [
+    "kumuluzee"
+  ],
+  "author": "Miha Jamsek <miha_jamsek@windowslive.com> (https://github.com/Jamsek-m)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumuluz/kumuluzee-nodejs-samples/issues"
+  },
+  "homepage": "https://github.com/kumuluz/kumuluzee-nodejs-samples#readme",
+  "dependencies": {
+    "@kumuluz/kumuluzee-config": "^1.0.0",
+    "@kumuluz/kumuluzee-discovery": "^1.0.0",
+    "body-parser": "~1.18.3",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.16.3",
+    "axios": "~0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

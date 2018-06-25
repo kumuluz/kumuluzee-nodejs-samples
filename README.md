@@ -21,6 +21,7 @@ The following samples are available (list might not be up-to-date; please refer 
 Node.js samples:
 - KumuluzEE Config
 - KumuluzEE Discovery
+- Tutorial with Node.js and Java services
 
 ## Requirements
 
