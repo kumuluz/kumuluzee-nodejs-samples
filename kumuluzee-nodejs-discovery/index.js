@@ -22,7 +22,7 @@ register();
 
 server.get("/lookup", async (req, res) => {
 	const response = await KumuluzeeDiscovery.discoverService({
-		value: "testni-servis",
+		value: "test-service",
 		version: "1.0.0",
 		environment: "dev",
 		accessType: "DIRECT"

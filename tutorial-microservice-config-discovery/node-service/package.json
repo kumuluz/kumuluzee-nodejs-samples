@@ -1,6 +1,6 @@
 {
   "name": "node-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Microservice written in Node.js",
   "scripts": {
     "start": "node ./bin/www",
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/kumuluz/kumuluzee-nodejs-samples#readme",
   "dependencies": {
-    "@kumuluz/kumuluzee-config": "^1.0.0",
-    "@kumuluz/kumuluzee-discovery": "^1.0.0",
+    "@kumuluz/kumuluzee-config": "^1.1.0",
+    "@kumuluz/kumuluzee-discovery": "^1.1.0",
     "body-parser": "~1.18.3",
     "cookie-parser": "~1.4.3",
     "express": "~4.16.3",

@@ -1,6 +1,6 @@
 {
   "name": "config-sample",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sample project for KumuluzEE Config in NodeJS",
   "scripts": {
     "start:util": "node util/index.js",
@@ -9,7 +9,7 @@
   "author": "Miha Jamsek <miha_jamsek@windowslive.com> (https://github.com/Jamsek-m)",
   "license": "ISC",
   "dependencies": {
-    "@kumuluz/kumuluzee-config": "^1.0.0",
+    "@kumuluz/kumuluzee-config": "^1.1.0",
     "express": "^4.16.3"
   }
 }
