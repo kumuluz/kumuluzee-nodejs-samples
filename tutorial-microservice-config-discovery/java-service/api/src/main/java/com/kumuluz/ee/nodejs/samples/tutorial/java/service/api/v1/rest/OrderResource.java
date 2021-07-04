@@ -34,7 +34,7 @@ public class OrderResource {
 		Order order = new Order();
 		order.setCustomerId(newOrder.getCustomerId());
 		order.setTitle(newOrder.getTitle());
-		order.setDescription(newOrder.getTitle());
+		order.setDescription(newOrder.getDescription());
 		
 		ordersBean.createOrder(order);
 		
