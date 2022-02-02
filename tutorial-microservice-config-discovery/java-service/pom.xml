@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <kumuluzee.version>2.5.3</kumuluzee.version>
-        <postgres.version>42.2.1</postgres.version>
+        <postgres.version>42.2.25</postgres.version>
         <kumuluzee-cors.version>1.0.3</kumuluzee-cors.version>
         <kumuluzee-config-consul.version>1.1.0</kumuluzee-config-consul.version>
         <kumuluzee-discovery-consul.version>1.1.0</kumuluzee-discovery-consul.version>
